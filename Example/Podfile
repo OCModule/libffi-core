@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libffi-core_Example' do
+  pod 'libffi-core', :path => '../'
+
+  target 'libffi-core_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
