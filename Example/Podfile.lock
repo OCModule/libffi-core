@@ -1,0 +1,16 @@
+PODS:
+  - libffi-core (0.1.0)
+
+DEPENDENCIES:
+  - libffi-core (from `../`)
+
+EXTERNAL SOURCES:
+  libffi-core:
+    :path: ../
+
+SPEC CHECKSUMS:
+  libffi-core: 0c4dce6e90014581d44e0618de5cd279330c7b3f
+
+PODFILE CHECKSUM: 314f3356059d0e7d1c32a0c443f3479807208e00
+
+COCOAPODS: 1.4.0
