@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023A91A5EFC4AE243E0AE26D /* libPods-libffi-core_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 216FD3F078F475572E5C7FA6 /* libPods-libffi-core_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6E86CB03DCFB591273423D94 /* libPods-libffi-core_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7727F2FE3BBE2305287AAB /* libPods-libffi-core_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A4E70E48737D294E4D7674C9 /* Pods_libffi_core_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CFE94E24E4B1DD3B338EBB /* Pods_libffi_core_Tests.framework */; };
-		CF83C7B80347956759913819 /* Pods_libffi_core_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061B5BAF025BE0C7A4E90C8 /* Pods_libffi_core_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11CFE94E24E4B1DD3B338EBB /* Pods_libffi_core_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libffi_core_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		216FD3F078F475572E5C7FA6 /* libPods-libffi-core_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libffi-core_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7727F2FE3BBE2305287AAB /* libPods-libffi-core_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libffi-core_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0348E4073B424912241BA8 /* Pods-libffi-core_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libffi-core_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libffi-core_Example/Pods-libffi-core_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2E03FD1AE404AF6D736508F0 /* Pods-libffi-core_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libffi-core_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libffi-core_Tests/Pods-libffi-core_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E448451FC7C827AA11F935A /* libffi-core.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "libffi-core.podspec"; path = "../libffi-core.podspec"; sourceTree = "<group>"; };
-		3061B5BAF025BE0C7A4E90C8 /* Pods_libffi_core_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libffi_core_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEFEAB06544CE1660C2C955 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* libffi-core_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libffi-core_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CF83C7B80347956759913819 /* Pods_libffi_core_Example.framework in Frameworks */,
+				6E86CB03DCFB591273423D94 /* libPods-libffi-core_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A4E70E48737D294E4D7674C9 /* Pods_libffi_core_Tests.framework in Frameworks */,
+				023A91A5EFC4AE243E0AE26D /* libPods-libffi-core_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3061B5BAF025BE0C7A4E90C8 /* Pods_libffi_core_Example.framework */,
-				11CFE94E24E4B1DD3B338EBB /* Pods_libffi_core_Tests.framework */,
+				2C7727F2FE3BBE2305287AAB /* libPods-libffi-core_Example.a */,
+				216FD3F078F475572E5C7FA6 /* libPods-libffi-core_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

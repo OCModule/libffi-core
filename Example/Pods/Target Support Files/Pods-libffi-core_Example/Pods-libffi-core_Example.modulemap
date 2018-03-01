@@ -1,6 +1,0 @@
-framework module Pods_libffi_core_Example {
-  umbrella header "Pods-libffi-core_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
