@@ -1,6 +1,0 @@
-framework module libffi_core {
-  umbrella header "libffi-core-umbrella.h"
-
-  export *
-  module * { export * }
-}

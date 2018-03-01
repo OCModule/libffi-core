@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'libffi-core'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of libffi-core.'
+  s.summary          = 'Stable libffi library for iOS (i386, x86_64, armv7, arm64) which has been fully verified.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,21 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/wangchengqvan@gmail.com/libffi-core'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangchengqvan@gmail.com' => 'chengquan.wang@ele.me' }
-  s.source           = { :git => 'https://github.com/wangchengqvan@gmail.com/libffi-core.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/OCModule/libffi-core.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libffi-core/Classes/**/*'
+  s.vendored_libraries = 'libffi-core/*.a'
+  s.source_files = 'libffi-core/*.h'
   
-  # s.resource_bundles = {
-  #   'libffi-core' => ['libffi-core/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
